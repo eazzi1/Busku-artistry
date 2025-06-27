@@ -21,3 +21,8 @@ document.getElementById("design").onclick = function() {
 document.getElementById("contact").onclick = function() {
   window.location.href= "contact.html"
 }
+
+function toggleMenu() {
+  const nav = document.getElementById("navMenu");
+  nav.classList.toggle("active");
+}

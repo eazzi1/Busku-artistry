@@ -50,6 +50,7 @@ nav a {
   border: 1px solid #ddd;
   padding: 10px;
   transition: all 0.3s ease;
+  border-radius: 5%;
 }
 
 .gallery-item:hover {
@@ -62,6 +63,7 @@ nav a {
   height: 300px;
   object-fit: cover;
   margin-bottom: 10px;
+  border-radius: 5%;
 }
 
 .gallery-item p {
