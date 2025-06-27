@@ -12,14 +12,41 @@ body {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
+  align-items: center;
+  padding: 15px 30px;
+  z-index: 1000;
   border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
+}
+
+.hamburger {
+  font-size: 1.8rem;
+  display: none;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 500;
 }
 
 .logo {
-  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 

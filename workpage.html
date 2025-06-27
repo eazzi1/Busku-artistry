@@ -10,10 +10,13 @@
 <body>
   <header class="navbar">
     <div class="logo"><img src="designs/logo.png" alt="" width="30px" class="busku-logo">BUSKU</div>
-    <nav>
-      <a href="home.html">Home</a>
-      <a href="workpage.html">Designs</a>
-      <a href="contact.html">Contact</a>
+
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    
+    <nav class="nav-links" id="navMenu">
+      <a id="homeLink" href="index.html">Home</a>
+      <a id="designsLink" href="workpage.html">Designs</a>
+      <a id="contactLink" href="contact.html">Contact</a>
     </nav>
   </header>
 
@@ -84,5 +87,7 @@
   <footer>
     <p>&copy; 2025 BUSKU Clothing. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
